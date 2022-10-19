@@ -14,20 +14,28 @@ const Shop = () => {
     };
     return (
 
-      <div className="parent">
+      <div className="parent ">
         {products.map((product) => {
           console.log(product);
           return (
-            <div className="prod-wrap">
+            
             <Link
               to={`/shop/${product.id}`}
-              key={product.id} className="div-style">
-               
-              <img className="image " src={product.image} alt="" />
-              <h4>{product.title}</h4>
-              <h5>{product.price}</h5>
+              key={product.id} className="card m-3 p-3 d-flex flex-column justify-content-around align-items-center  ">
+              
+              <div className=" w-50 h-50 mb-4 d-flex align-content-center justify-content-center"> <img className=" img-fluid" src={product.image} alt="" /></div>
+              <div className="prod-name"><p >{product.title}</p></div> 
+
+              <div  className="detaile-wraper d-flex justify-content-between align-baseline">
+            <h5 className="price1 "> Price:{product.price} EG</h5>
+              
+              <button class="button1">Learn more</button>
+              
+            
+              </div>
             </Link>
-            </div>
+           
+          
         )
     })
 

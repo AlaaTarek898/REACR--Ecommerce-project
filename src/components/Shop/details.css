@@ -1,0 +1,38 @@
+.product{
+    width:80%;
+    margin: 0 auto;
+}
+.title{font-size: 60px;
+}
+.price{
+    font-size: 60px;
+}
+ .details button{
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color:purple;
+    font-size: 20px;
+    
+    margin-bottom: 10px;
+}
+.details button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* .price {
+    display: inline-block;
+ text-align: center;
+height: 20px;
+ width: 30%;
+
+padding-bottom: 20px;
+padding-top: 10px;
+font-size: 20px;
+color: black;
+text-decoration: none;
+border-radius: 10px;
+ background-color:whitesmoke;
+} */

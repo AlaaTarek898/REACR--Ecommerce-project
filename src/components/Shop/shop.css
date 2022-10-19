@@ -1,33 +1,91 @@
-.prod-wrap{
-    background-color: lightgray;
+ 
+  .prod-wrap{
+    background-color: plum;
     width:20%;
-    height:350px;
-    border:2px black solid;
-    margin:20px;
+    height:400px;
+   
+   
     border-radius: 10px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+       justify-content: space-around;
     align-items: center;
-}
-.image{
-    width:50%;
-    height:50%;
+    padding-top: 10px;
+padding-bottom:10px ;  
+ 
+ }   
+ /* .prod-wrap:hover{
+    transform: scale(1.1)
+} */
+/* .image{ 
+    width:150px;
+    height:150px;
+    border-radius: 20px;
+     margin-bottom: 10px;
+
     
 }
-.div-style{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-}
-.parent{
-    width:80%;
-    margin:0 auto;
-    display: flex;
+.prod-name{
+    height:80px;
+    margin-bottom: 20px;
+}*/
+
+ .card{
+     width:300px;
+     text-decoration: none;
+ 
+}  
+.parent{ width: 80%;
+    margin:0 auto ;
+     display: flex;
     flex-wrap: wrap;
-}
-h4{
+    justify-content: space-around;
+   
+ }
+/* h4{
     text-align: center;
     text-decoration: none;
+    color: black;
+}
+.detaile-wraper{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+
+}*/
+.price1 {
+
+ text-align:left;
+
+
+
+
+font-size: 20px;
+color: black;
+
+
+} 
+
+
+ .button1{
+ 
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color:purple;
+    font-size: 16px;
+    
+}
+
+.add-btn button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}  */ 
+.prod-name{
+    font-size: 15px;
+    color: black;
 }
