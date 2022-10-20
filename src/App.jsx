@@ -7,7 +7,10 @@ import NavBar from "./components/NavBar";
  import Home from     "./components/Home";
  import Details from "./components/Shop/Details";
  import Cart from "./components/Cart";
+ import SignIn from "./components/SignIn";
  import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Registration from "./components/Registration";
+
  
 
 
@@ -21,7 +24,9 @@ import NavBar from "./components/NavBar";
         <Route path="/counter"  element={<CounterAction/>}/>
         <Route path="/Home"  element={<Home/>}/>
         <Route path="/shop/:id" element={<Details/>} />
-        <Route path="/Cart/" element={<Cart/>} />
+        <Route path="/Cart" element={<Cart/>} />
+        <Route path="/SignIn" element={<SignIn/>} />
+        <Route path='/Registration' element={<Registration/>}/>
       </Routes >
     </Router>
  )};

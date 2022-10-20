@@ -4,7 +4,7 @@ import "./nav-bar.css"
 import {useSelector}from "react-redux";
 
 const NavBar = () => {
-  const cartList=useSelector(store =>store.cartStore.cartList)
+
   const cartCount=useSelector(store =>store.cartStore.cartCount)
  
   return (
@@ -18,7 +18,10 @@ const NavBar = () => {
         <Link to="/about"> <li className="list-item text-white">About</li></Link>
         <Link to="/shop"><li className="list-item text-white">Shop</li></Link>
         <Link to="/Counter"><li className="list-item text-white">Counter</li></Link>
-        <Link to="/Cart"><li className="list-item text-white">Cart</li></Link>
+        <Link to="/Cart"><li className="list-item text-white">Cart {cartCount}</li></Link>
+        <Link to="/SignIn"><li className="list-item text-white">sign in</li></Link>
+        
+        
       
       </ul>
     </nav>

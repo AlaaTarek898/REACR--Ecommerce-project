@@ -20,8 +20,8 @@ const Details = () => {
   const handelAddToCart=(prod)=>{
    dispatch( addToCart(prod))
   }
-  const global=useSelector(store =>store.cartStore.cartCount)
-  console.log(global)
+  // const global=useSelector(store =>store.cartStore.cartCount)
+  // console.log(global)
   const global2=useSelector(store =>store.cartStore.cartList)
   console.log(global2)
 
